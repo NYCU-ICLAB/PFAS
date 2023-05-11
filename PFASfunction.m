@@ -11,7 +11,7 @@ function output = PFASfunction(input)
 % input = readcell(strcat(file.folder,'\',file.name));
 % projectname = 'Example_';
 % 
-% output = ParetoFront_PFAVC(input);
+% output = PFASfunction(input);
 % xlswrite(strcat(file_path ,projectname,' paretoFront.xlsx'),output);
 % writecell(output,strcat(file_path ,projectname,' paretoFront.xlsx'));
 
@@ -23,7 +23,7 @@ function output = PFASfunction(input)
 % raw and fourth raw is T and B scores.
 % 
 % Outputs:
-% - output    : input data with Pareto-filtered ranking
+% - output    : input data with Pareto-filtered rank
 % 
 % Example:
 % input =
@@ -32,7 +32,7 @@ function output = PFASfunction(input)
 %     {[2]}    {'IILIFLIFSNIVLSI'}    {[0.4730]}    {[0.2589]}
 %     {[3]}    {'ILIFLIFSNIVLSID'}    {[0.7265]}    {[0.2693]}
 % 
-% output = ParetoFront_PFAVC(input)
+% output = PFASfunction(input)
 % output =
 % 9×5 cell array
 % 
