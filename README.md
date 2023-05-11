@@ -56,16 +56,18 @@ raw and fourth raw is T and B scores.
  
 - Example:
     - ```input```
-        {'ID'}    {'SEQUENCE'}    {'T cell score'}    {'B cells core'}
-    
+        - ```{'ID'}    {'SEQUENCE'}    {'T cell score'}    {'B cells core'}```
+        ```matlab
         3×4 cell array
         {[1]}    {'MIILIFLIFSNIVLS'}    {[0.6600]}    {[0.3778]}
         {[2]}    {'IILIFLIFSNIVLSI'}    {[0.4730]}    {[0.2589]}
         {[3]}    {'ILIFLIFSNIVLSID'}    {[0.7265]}    {[0.2693]}
+        ```
  
     - ```output = ParetoFront_PFAVC(input)```
     - ```output```
-        {'ID'}    {'SEQUENCE'}    {'T cell score'}    {'B cells core'} {'Pareto Front rank'}
+         - ```{'ID'}    {'SEQUENCE'}    {'T cell score'}    {'B cells core'} {'Pareto Front rank'}```
+        ```matlab
         9×5 cell array 
         {[ 236]}    {'KHVEEIESPPPESNE'}    {[0.1632]}    {[0.9737]}    {[1]}
         {[ 237]}    {'HVEEIESPPPESNEE'}    {[0.1296]}    {[     1]}    {[1]}
@@ -76,3 +78,4 @@ raw and fourth raw is T and B scores.
         {[ 233]}    {'KRKKHVEEIESPPPE'}    {[0.3829]}    {[0.9011]}    {[2]}
         {[ 235]}    {'KKHVEEIESPPPESN'}    {[0.3060]}    {[0.9012]}    {[2]}
         {[ 265]}    {'PSPREPLLPKPYSRY'}    {[0.7068]}    {[0.8483]}    {[2]}
+        ```
