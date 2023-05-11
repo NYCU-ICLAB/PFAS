@@ -52,7 +52,7 @@ writecell(output,strcat(file_path ,projectname,' paretoFront.xlsx'));
 raw and fourth raw is T and B scores.
  
 #### Outputs:
-- output    : input data with Pareto-filtered ranking
+- output    : input data with Pareto-filtered rank
  
 - Example:
     - ```input```
